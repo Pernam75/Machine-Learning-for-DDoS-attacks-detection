@@ -321,9 +321,9 @@ df.describe()
       <td>1.400000e+04</td>
       <td>14000.000000</td>
       <td>14000.000000</td>
-      <td>1.400000e+04</td>
-      <td>1.400000e+04</td>
       <td>14000.000000</td>
+      <td>1.400000e+04</td>
+      <td>14000.00000</td>
       <td>14000.000000</td>
       <td>14000.000000</td>
       <td>14000.000000</td>
@@ -342,60 +342,60 @@ df.describe()
     </tr>
     <tr>
       <th>mean</th>
-      <td>1.390554e+07</td>
-      <td>8.189786</td>
-      <td>4.455357</td>
-      <td>2.721783e+03</td>
-      <td>3.217427e+03</td>
-      <td>401.637726</td>
-      <td>339.272644</td>
-      <td>353.859070</td>
-      <td>21.215477</td>
-      <td>97.797997</td>
+      <td>1.368316e+07</td>
+      <td>7.355571</td>
+      <td>3.562143</td>
+      <td>1626.142456</td>
+      <td>1.928606e+03</td>
+      <td>395.02243</td>
+      <td>339.776703</td>
+      <td>353.576691</td>
+      <td>19.760897</td>
+      <td>89.601501</td>
       <td>...</td>
-      <td>0.999429</td>
-      <td>0.000571</td>
-      <td>0.968786</td>
-      <td>0.031214</td>
-      <td>0.691143</td>
-      <td>0.308857</td>
-      <td>0.898214</td>
-      <td>0.101786</td>
-      <td>0.945786</td>
-      <td>0.054214</td>
+      <td>0.999143</td>
+      <td>0.000857</td>
+      <td>0.966357</td>
+      <td>0.033643</td>
+      <td>0.694929</td>
+      <td>0.305071</td>
+      <td>0.897643</td>
+      <td>0.102357</td>
+      <td>0.945714</td>
+      <td>0.054286</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>2.733182e+07</td>
-      <td>62.703896</td>
-      <td>75.798956</td>
-      <td>1.291497e+05</td>
-      <td>1.202525e+05</td>
-      <td>580.521790</td>
-      <td>484.627106</td>
-      <td>481.843567</td>
-      <td>76.411736</td>
-      <td>444.340881</td>
+      <td>2.697407e+07</td>
+      <td>24.582212</td>
+      <td>33.917828</td>
+      <td>6154.345215</td>
+      <td>5.226895e+04</td>
+      <td>511.30191</td>
+      <td>484.932068</td>
+      <td>481.717346</td>
+      <td>69.337326</td>
+      <td>422.711121</td>
       <td>...</td>
-      <td>0.023899</td>
-      <td>0.023899</td>
-      <td>0.173903</td>
-      <td>0.173903</td>
-      <td>0.462039</td>
-      <td>0.462039</td>
-      <td>0.302377</td>
-      <td>0.302377</td>
-      <td>0.226448</td>
-      <td>0.226448</td>
+      <td>0.029265</td>
+      <td>0.029265</td>
+      <td>0.180315</td>
+      <td>0.180315</td>
+      <td>0.460454</td>
+      <td>0.460454</td>
+      <td>0.303128</td>
+      <td>0.303128</td>
+      <td>0.226589</td>
+      <td>0.226589</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1.000000e+00</td>
       <td>1.000000</td>
       <td>0.000000</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
       <td>0.000000</td>
+      <td>0.000000e+00</td>
+      <td>0.00000</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>0.000000</td>
@@ -417,9 +417,9 @@ df.describe()
       <td>4.900000e+01</td>
       <td>2.000000</td>
       <td>0.000000</td>
-      <td>6.000000e+01</td>
+      <td>60.000000</td>
       <td>0.000000e+00</td>
-      <td>6.000000</td>
+      <td>6.00000</td>
       <td>6.000000</td>
       <td>6.000000</td>
       <td>0.000000</td>
@@ -438,14 +438,14 @@ df.describe()
     </tr>
     <tr>
       <th>50%</th>
-      <td>1.057425e+05</td>
+      <td>1.054825e+05</td>
       <td>4.000000</td>
       <td>0.000000</td>
-      <td>7.660000e+02</td>
+      <td>729.000000</td>
       <td>0.000000e+00</td>
-      <td>357.000000</td>
+      <td>348.00000</td>
       <td>47.000000</td>
-      <td>135.102020</td>
+      <td>125.339287</td>
       <td>0.000000</td>
       <td>0.000000</td>
       <td>...</td>
@@ -462,12 +462,12 @@ df.describe()
     </tr>
     <tr>
       <th>75%</th>
-      <td>7.128170e+06</td>
+      <td>6.366386e+06</td>
       <td>6.000000</td>
       <td>2.000000</td>
-      <td>2.088000e+03</td>
+      <td>2088.000000</td>
       <td>2.400000e+01</td>
-      <td>428.000000</td>
+      <td>421.00000</td>
       <td>330.000000</td>
       <td>359.500000</td>
       <td>22.516661</td>
@@ -486,16 +486,16 @@ df.describe()
     </tr>
     <tr>
       <th>max</th>
-      <td>1.199879e+08</td>
-      <td>5063.000000</td>
-      <td>8029.000000</td>
-      <td>1.526642e+07</td>
-      <td>1.289243e+07</td>
-      <td>32120.000000</td>
-      <td>1729.000000</td>
-      <td>3015.290527</td>
-      <td>2221.556152</td>
-      <td>3571.000000</td>
+      <td>1.198916e+08</td>
+      <td>1639.000000</td>
+      <td>2863.000000</td>
+      <td>153488.000000</td>
+      <td>4.656888e+06</td>
+      <td>3591.00000</td>
+      <td>1486.000000</td>
+      <td>1686.681274</td>
+      <td>1154.598877</td>
+      <td>3577.000000</td>
       <td>...</td>
       <td>1.000000</td>
       <td>1.000000</td>
@@ -571,9 +571,9 @@ df['Label'].value_counts()
 
 
     UDP          3500
-    DrDoS_DNS    3489
-    Syn          3485
-    Benign       2826
+    Syn          3491
+    DrDoS_DNS    3488
+    Benign       2821
     Name: Label, dtype: int64
 
 
@@ -633,41 +633,17 @@ df
   </thead>
   <tbody>
     <tr>
-      <th>34849</th>
+      <th>23011</th>
       <td>Syn</td>
-      <td>62754538</td>
-      <td>12</td>
-      <td>8</td>
-      <td>72.0</td>
-      <td>48.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>31946</th>
-      <td>Syn</td>
-      <td>44090418</td>
-      <td>8</td>
+      <td>131</td>
       <td>2</td>
-      <td>48.0</td>
+      <td>2</td>
+      <td>12.0</td>
       <td>12.0</td>
       <td>6.0</td>
       <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
+      <td>6.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -681,17 +657,41 @@ df
       <td>0</td>
     </tr>
     <tr>
-      <th>11554</th>
+      <th>15130</th>
       <td>Syn</td>
-      <td>62485953</td>
-      <td>12</td>
+      <td>5277523</td>
       <td>4</td>
-      <td>72.0</td>
+      <td>0</td>
+      <td>24.0</td>
+      <td>0.0</td>
+      <td>6.0</td>
+      <td>6.0</td>
+      <td>6.000000</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6824</th>
+      <td>Syn</td>
+      <td>10422322</td>
+      <td>6</td>
+      <td>4</td>
+      <td>36.0</td>
       <td>24.0</td>
       <td>6.0</td>
       <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
+      <td>6.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -705,17 +705,17 @@ df
       <td>0</td>
     </tr>
     <tr>
-      <th>3025</th>
+      <th>42053</th>
       <td>Syn</td>
-      <td>144</td>
+      <td>75657778</td>
+      <td>14</td>
       <td>2</td>
-      <td>2</td>
+      <td>84.0</td>
       <td>12.0</td>
-      <td>12.0</td>
       <td>6.0</td>
       <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
+      <td>6.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -729,17 +729,17 @@ df
       <td>0</td>
     </tr>
     <tr>
-      <th>35987</th>
+      <th>4077</th>
       <td>Syn</td>
-      <td>32300690</td>
-      <td>6</td>
-      <td>2</td>
-      <td>36.0</td>
-      <td>12.0</td>
+      <td>47431854</td>
+      <td>8</td>
+      <td>4</td>
+      <td>48.0</td>
+      <td>24.0</td>
       <td>6.0</td>
       <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
+      <td>6.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -777,65 +777,41 @@ df
       <td>...</td>
     </tr>
     <tr>
-      <th>69898</th>
+      <th>49574</th>
       <td>Benign</td>
-      <td>4578941</td>
-      <td>3</td>
-      <td>2</td>
-      <td>18.0</td>
+      <td>5639002</td>
+      <td>12</td>
+      <td>8</td>
+      <td>1311.0</td>
+      <td>304.0</td>
+      <td>589.0</td>
       <td>0.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
-      <td>0.0</td>
+      <td>109.250000</td>
+      <td>224.980453</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>65736</th>
-      <td>Benign</td>
-      <td>47488</td>
-      <td>2</td>
-      <td>2</td>
-      <td>70.0</td>
-      <td>126.0</td>
-      <td>35.0</td>
-      <td>35.0</td>
-      <td>35.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>53787</th>
+      <th>52679</th>
       <td>Benign</td>
-      <td>61212</td>
+      <td>20960</td>
       <td>2</td>
       <td>2</td>
-      <td>90.0</td>
-      <td>146.0</td>
-      <td>45.0</td>
-      <td>45.0</td>
-      <td>45.0</td>
-      <td>0.0</td>
+      <td>92.0</td>
+      <td>170.0</td>
+      <td>46.0</td>
+      <td>46.0</td>
+      <td>46.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -849,41 +825,65 @@ df
       <td>0</td>
     </tr>
     <tr>
-      <th>16431</th>
+      <th>49212</th>
       <td>Benign</td>
-      <td>47060577</td>
+      <td>214368</td>
       <td>18</td>
-      <td>0</td>
+      <td>14</td>
+      <td>1693.0</td>
+      <td>5424.0</td>
+      <td>517.0</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
+      <td>94.055557</td>
+      <td>166.131943</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
       <td>0</td>
+      <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>62084</th>
+      <th>59654</th>
       <td>Benign</td>
-      <td>280</td>
+      <td>90715</td>
+      <td>4</td>
+      <td>2</td>
+      <td>74.0</td>
+      <td>70.0</td>
+      <td>31.0</td>
+      <td>6.0</td>
+      <td>18.500000</td>
+      <td>14.433757</td>
+      <td>...</td>
       <td>1</td>
-      <td>3</td>
-      <td>6.0</td>
-      <td>18.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
-      <td>6.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>48381</th>
+      <td>Benign</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>104.0</td>
       <td>0.0</td>
+      <td>52.0</td>
+      <td>52.0</td>
+      <td>52.000000</td>
+      <td>0.000000</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
@@ -891,10 +891,10 @@ df
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
@@ -1129,82 +1129,82 @@ df_pca.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>7.721210</td>
-      <td>-1.175171</td>
-      <td>1.191116</td>
-      <td>-0.105998</td>
-      <td>0.468198</td>
-      <td>0.657741</td>
-      <td>0.068088</td>
-      <td>-1.278519</td>
-      <td>-0.005922</td>
-      <td>-0.057667</td>
-      <td>-0.033371</td>
-      <td>0.505432</td>
+      <td>0.955924</td>
+      <td>1.892154</td>
+      <td>-0.977938</td>
+      <td>-0.158961</td>
+      <td>-1.366671</td>
+      <td>0.285894</td>
+      <td>0.208356</td>
+      <td>0.159460</td>
+      <td>0.421547</td>
+      <td>-0.063712</td>
+      <td>-0.683161</td>
+      <td>-1.098670</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>6.378424</td>
-      <td>-1.749425</td>
-      <td>-0.015752</td>
-      <td>-0.240077</td>
-      <td>-0.362503</td>
-      <td>-1.557207</td>
-      <td>-2.472501</td>
-      <td>1.099247</td>
-      <td>-0.021523</td>
-      <td>-0.129386</td>
-      <td>0.117597</td>
-      <td>0.010918</td>
+      <td>2.133076</td>
+      <td>0.388364</td>
+      <td>-1.192824</td>
+      <td>0.075668</td>
+      <td>-1.246405</td>
+      <td>-1.216590</td>
+      <td>-0.870762</td>
+      <td>0.553675</td>
+      <td>0.579146</td>
+      <td>0.009170</td>
+      <td>-0.533335</td>
+      <td>-0.825071</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>6.951613</td>
-      <td>-1.542314</td>
-      <td>0.610912</td>
-      <td>0.080970</td>
-      <td>0.207170</td>
-      <td>-0.025175</td>
-      <td>-0.350369</td>
-      <td>-1.132098</td>
-      <td>0.002249</td>
-      <td>-0.016915</td>
-      <td>-0.011656</td>
-      <td>0.172930</td>
+      <td>4.196371</td>
+      <td>0.140690</td>
+      <td>-0.191551</td>
+      <td>-0.115359</td>
+      <td>-0.490763</td>
+      <td>0.482863</td>
+      <td>2.466459</td>
+      <td>6.562305</td>
+      <td>-0.102084</td>
+      <td>-0.022074</td>
+      <td>-0.338945</td>
+      <td>-0.544099</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.887585</td>
-      <td>1.502519</td>
-      <td>-1.590420</td>
-      <td>-0.120690</td>
-      <td>-1.285992</td>
-      <td>0.041307</td>
-      <td>0.189657</td>
-      <td>0.127617</td>
-      <td>-0.043467</td>
-      <td>-0.101589</td>
-      <td>-0.456610</td>
-      <td>2.111943</td>
+      <td>6.292721</td>
+      <td>-1.149364</td>
+      <td>-0.389380</td>
+      <td>0.480447</td>
+      <td>-0.852274</td>
+      <td>-1.457206</td>
+      <td>-2.302730</td>
+      <td>0.631270</td>
+      <td>-0.986747</td>
+      <td>-0.182409</td>
+      <td>-0.146932</td>
+      <td>-0.442760</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>7.232298</td>
-      <td>-2.271800</td>
-      <td>0.145053</td>
-      <td>-0.605002</td>
-      <td>-0.278456</td>
-      <td>-1.818116</td>
-      <td>-2.955724</td>
-      <td>1.266808</td>
-      <td>-0.027538</td>
-      <td>-0.144523</td>
-      <td>0.235049</td>
-      <td>-0.498365</td>
+      <td>7.728240</td>
+      <td>-2.018595</td>
+      <td>0.153295</td>
+      <td>-0.427468</td>
+      <td>-0.001637</td>
+      <td>-0.949656</td>
+      <td>-1.545307</td>
+      <td>-0.259891</td>
+      <td>-0.382744</td>
+      <td>-0.038165</td>
+      <td>0.147020</td>
+      <td>0.226378</td>
       <td>Syn</td>
     </tr>
   </tbody>
@@ -1273,6 +1273,7 @@ plt.show()
 
 
 ```python
+# we do the same thing for a kernel PCA
 from sklearn.decomposition import KernelPCA
 ```
 
@@ -1281,9 +1282,9 @@ from sklearn.decomposition import KernelPCA
 # check if the file exists
 if not os.path.exists('data/results/df_kpca.parquet'):
     # we do the same thing for a kernel PCA
-    kpca = KernelPCA(n_components=4, kernel='rbf')
+    kpca = KernelPCA(n_components=8, kernel='rbf')
     # create a dataframe with the principal components
-    df_kpca = pd.DataFrame(data=kpca.fit_transform(X), columns=['PC' + str(i) for i in range(1, 5)])
+    df_kpca = pd.DataFrame(data=kpca.fit_transform(X), columns=['PC' + str(i) for i in range(1, 9)])
 
     # concatenate the labels to the dataframe
     df_kpca = pd.concat([df_kpca, df[['Label']]], axis=1)
@@ -1322,48 +1323,72 @@ df_kpca.head()
       <th>PC2</th>
       <th>PC3</th>
       <th>PC4</th>
+      <th>PC5</th>
+      <th>PC6</th>
+      <th>PC7</th>
+      <th>PC8</th>
       <th>Label</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.510527</td>
-      <td>-0.281851</td>
-      <td>-0.379878</td>
-      <td>-0.125800</td>
+      <td>0.694293</td>
+      <td>-0.163515</td>
+      <td>-0.390344</td>
+      <td>-0.117720</td>
+      <td>-0.268498</td>
+      <td>-0.149944</td>
+      <td>0.094854</td>
+      <td>-0.175512</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.211209</td>
-      <td>-0.083731</td>
-      <td>0.219308</td>
-      <td>-0.005801</td>
+      <td>0.648484</td>
+      <td>-0.166958</td>
+      <td>-0.382211</td>
+      <td>-0.151421</td>
+      <td>-0.295766</td>
+      <td>-0.163081</td>
+      <td>0.129898</td>
+      <td>-0.162038</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.697282</td>
-      <td>-0.054895</td>
-      <td>-0.282159</td>
-      <td>-0.106529</td>
+      <td>0.598730</td>
+      <td>0.057647</td>
+      <td>0.043366</td>
+      <td>0.223421</td>
+      <td>0.495209</td>
+      <td>0.239183</td>
+      <td>-0.173741</td>
+      <td>-0.007366</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>-0.015130</td>
-      <td>-0.329838</td>
-      <td>0.062997</td>
-      <td>-0.091189</td>
+      <td>0.681838</td>
+      <td>-0.041536</td>
+      <td>-0.119951</td>
+      <td>0.216507</td>
+      <td>0.471789</td>
+      <td>0.255171</td>
+      <td>-0.282316</td>
+      <td>0.032216</td>
       <td>Syn</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>-0.015233</td>
-      <td>-0.330022</td>
-      <td>0.062888</td>
-      <td>-0.091146</td>
+      <td>0.511454</td>
+      <td>-0.253601</td>
+      <td>-0.345547</td>
+      <td>-0.142021</td>
+      <td>-0.278727</td>
+      <td>-0.107336</td>
+      <td>0.028023</td>
+      <td>0.083457</td>
       <td>Syn</td>
     </tr>
   </tbody>
@@ -1407,6 +1432,7 @@ but we can see that its hard to distinguish the UDP attacks from the DrDoS_DNS a
 
 ```python
 from sklearn.manifold import TSNE
+
 # scatter plot the data
 def plot_tsne(df_tsne):
     sns.scatterplot(x='PC1', y='PC2', hue='Label', data=df_tsne)
@@ -1423,7 +1449,7 @@ plot_tsne(df_tsne)
 
     [t-SNE] Computing 16 nearest neighbors...
     [t-SNE] Indexed 13300 samples in 0.005s...
-    [t-SNE] Computed neighbors for 13300 samples in 0.750s...
+    [t-SNE] Computed neighbors for 13300 samples in 0.702s...
     [t-SNE] Computed conditional probabilities for sample 1000 / 13300
     [t-SNE] Computed conditional probabilities for sample 2000 / 13300
     [t-SNE] Computed conditional probabilities for sample 3000 / 13300
@@ -1439,8 +1465,8 @@ plot_tsne(df_tsne)
     [t-SNE] Computed conditional probabilities for sample 13000 / 13300
     [t-SNE] Computed conditional probabilities for sample 13300 / 13300
     [t-SNE] Mean sigma: 0.000000
-    [t-SNE] KL divergence after 250 iterations with early exaggeration: 84.962517
-    [t-SNE] KL divergence after 1000 iterations: 1.056271
+    [t-SNE] KL divergence after 250 iterations with early exaggeration: 84.921646
+    [t-SNE] KL divergence after 1000 iterations: 1.049687
     
 
 
@@ -1506,12 +1532,6 @@ if os.path.isfile('data/results/df_tsne_no_benign.parquet'):
 ```python
 # copy the dataframe to a new one
 df_lda = df.copy()
-
-# mpa each label to a number
-from sklearn.preprocessing import LabelEncoder
-le = LabelEncoder()
-le.fit(df_lda['Label'])
-df_lda['Label'] = le.transform(df_lda['Label'])
 ```
 
 
@@ -1538,7 +1558,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-    0.9740601503759398
+    0.9721804511278196
 
 
 
@@ -1554,9 +1574,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.9963964  0.93697479 0.99159664 0.97636632]
-    Recall:  [0.97359155 0.98818316 0.99578059 0.93892045]
-    F1:  [0.98486198 0.96189792 0.99368421 0.95727734]
+    Precision:  [0.99283154 0.92202462 0.99019608 0.99086758]
+    Recall:  [0.97535211 0.99556869 0.99158485 0.92735043]
+    F1:  [0.98401421 0.95738636 0.99088998 0.9580574 ]
     
 
 
@@ -1581,7 +1601,51 @@ sns.heatmap(cm, annot=True, fmt='d')
     
 
 
-we can comapre it to an Qaudratic Discriminant Analysis
+
+```python
+from sklearn.metrics import roc_curve, auc
+def plot_ROC(X_train, y_train, X_test, y_test, model):
+    for cluster in y_test.unique():
+        # compute a temp with true/false values
+        y_test_temp = y_test == cluster
+        y_train_temp = y_train == cluster
+
+        # fit the model
+        model.fit(X_train, y_train_temp)
+
+        # predict probabilities
+        y_pred_temp = model.predict_proba(X_test)
+
+        # calculate the fpr and tpr for all thresholds of the classification
+        fpr, tpr, threshold = roc_curve(y_test_temp, y_pred_temp[:, 1])
+        roc_auc = auc(fpr, tpr)
+        print('AUC for class {}: {}'.format(cluster, roc_auc))
+
+        # plot the ROC curve
+        plt.plot(fpr, tpr, label='{} {} (AUC = {})'.format(cluster, 'traffic' if cluster == 'Benign' else 'attack', round(roc_auc, 3)))
+    plt.plot([0, 1], [0, 1], 'k--')
+    plt.xlim([-0.05, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.legend(loc='lower right')
+    plt.show()
+
+plot_ROC(X_train, y_train, X_test, y_test, lda)
+```
+
+    AUC for class Syn: 0.9942584376582522
+    AUC for class UDP: 0.9932448949302881
+    AUC for class DrDoS_DNS: 0.9921951059634664
+    AUC for class Benign: 0.9955527260119031
+    
+
+
+    
+![png](README_files/README_72_1.png)
+    
+
+
 ### <a id='toc1_5_2_'></a>[QDA](#toc0_)
 
 
@@ -1589,11 +1653,16 @@ we can comapre it to an Qaudratic Discriminant Analysis
 # perform QDA
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
-lda = QuadraticDiscriminantAnalysis()
-lda.fit(X_train, y_train)
+df_qda = df.copy()
+
+# split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(df_qda.drop('Label', axis=1), df_qda['Label'], test_size=0.2, random_state=42)
+
+qda = QuadraticDiscriminantAnalysis()
+qda.fit(X_train, y_train)
 
 # make predictions
-y_pred = lda.predict(X_test)
+y_pred = qda.predict(X_test)
 
 # calculate accuracy
 accuracy_score(y_test, y_pred)
@@ -1602,7 +1671,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-    0.9609022556390977
+    0.9601503759398496
 
 
 
@@ -1616,9 +1685,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.99125874 0.99657534 1.         0.87859825]
-    Recall:  [0.99823944 0.85967504 0.99156118 0.99715909]
-    F1:  [0.99473684 0.92307692 0.99576271 0.93413174]
+    Precision:  [0.99295775 0.98322148 1.         0.88324873]
+    Recall:  [0.99295775 0.86558346 0.99298738 0.99145299]
+    F1:  [0.99295775 0.92065986 0.99648135 0.93422819]
     
 
 both overall and per class accuracy are lower than in an LDA
@@ -1641,7 +1710,24 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_76_1.png)
+![png](README_files/README_77_1.png)
+    
+
+
+
+```python
+plot_ROC(X_train, y_train, X_test, y_test, qda)
+```
+
+    AUC for class Syn: 0.997895132656347
+    AUC for class UDP: 0.9413895509401127
+    AUC for class DrDoS_DNS: 0.9821335859979694
+    AUC for class Benign: 0.997273735625993
+    
+
+
+    
+![png](README_files/README_78_1.png)
     
 
 
@@ -1668,9 +1754,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.99600798 0.97163121 0.91920732 0.73269436]
-    Recall:  [0.87852113 0.80945347 0.84810127 0.97727273]
-    F1:  [0.93358279 0.88315874 0.88222385 0.83749239]
+    Precision:  [0.94833948 0.96140351 0.95659432 0.71654373]
+    Recall:  [0.90492958 0.80945347 0.80364656 0.96866097]
+    F1:  [0.92612613 0.87890938 0.87347561 0.82374319]
     
 
 
@@ -1689,7 +1775,24 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_79_1.png)
+![png](README_files/README_81_1.png)
+    
+
+
+
+```python
+plot_ROC(X_train, y_train, X_test, y_test, lda)
+```
+
+    AUC for class Syn: 0.9936039982394608
+    AUC for class UDP: 0.9781399416230878
+    AUC for class DrDoS_DNS: 0.987932879996961
+    AUC for class Benign: 0.9625341677214337
+    
+
+
+    
+![png](README_files/README_82_1.png)
     
 
 
@@ -1699,11 +1802,11 @@ sns.heatmap(cm, annot=True, fmt='d')
 ```python
 # perform QDA on the pca data
 # perform QDA
-lda = QuadraticDiscriminantAnalysis()
-lda.fit(X_train, y_train)
+qda = QuadraticDiscriminantAnalysis()
+qda.fit(X_train, y_train)
 
 # make predictions
-y_pred = lda.predict(X_test)
+y_pred = qda.predict(X_test)
 
 accuracy_PCA_QDA = accuracy_score(y_test, y_pred)
 
@@ -1713,9 +1816,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.99469027 0.97376543 0.99297753 0.93605442]
-    Recall:  [0.98943662 0.93205318 0.99437412 0.97727273]
-    F1:  [0.99205649 0.95245283 0.99367533 0.9562196 ]
+    Precision:  [0.98945518 0.96124031 0.99858757 0.9200542 ]
+    Recall:  [0.99119718 0.91580502 0.99158485 0.96723647]
+    F1:  [0.99032542 0.93797277 0.99507389 0.94305556]
     
 
 
@@ -1734,7 +1837,24 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_82_1.png)
+![png](README_files/README_85_1.png)
+    
+
+
+
+```python
+plot_ROC(X_train, y_train, X_test, y_test, qda)
+```
+
+    AUC for class Syn: 0.995307989923722
+    AUC for class UDP: 0.9835392967415438
+    AUC for class DrDoS_DNS: 0.990166042081474
+    AUC for class Benign: 0.996645924783885
+    
+
+
+    
+![png](README_files/README_86_1.png)
     
 
 
@@ -1761,9 +1881,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.70849176 0.98888889 0.99068901 0.74773756]
-    Recall:  [0.98415493 0.65731167 0.74824191 0.93892045]
-    F1:  [0.8238762  0.78970719 0.8525641  0.8324937 ]
+    Precision:  [0.84090909 0.96028881 0.98666667 0.85603113]
+    Recall:  [0.97883598 0.78698225 0.93277311 0.93883357]
+    F1:  [0.90464548 0.86504065 0.95896328 0.89552239]
     
 
 
@@ -1782,7 +1902,7 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_85_1.png)
+![png](README_files/README_89_1.png)
     
 
 
@@ -1807,9 +1927,9 @@ print('Recall: ', recall_score(y_test, y_pred, average=None))
 print('F1: ', f1_score(y_test, y_pred, average=None))
 ```
 
-    Precision:  [0.94661922 0.9084507  0.95485636 0.97108067]
-    Recall:  [0.93661972 0.95273264 0.98171589 0.90625   ]
-    F1:  [0.94159292 0.93006489 0.96809986 0.93754592]
+    Precision:  [0.96428571 0.94971264 0.96433471 0.98962963]
+    Recall:  [0.95238095 0.97781065 0.98459384 0.95021337]
+    F1:  [0.95829636 0.96355685 0.97435897 0.96952104]
     
 
 
@@ -1828,7 +1948,7 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_88_1.png)
+![png](README_files/README_92_1.png)
     
 
 
@@ -1888,7 +2008,7 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_92_1.png)
+![png](README_files/README_96_1.png)
     
 
 
@@ -1933,7 +2053,7 @@ sns.heatmap(cm, annot=True, fmt='d')
 
 
     
-![png](README_files/README_95_1.png)
+![png](README_files/README_99_1.png)
     
 
 
@@ -1968,7 +2088,7 @@ plt.show()
 
 
     
-![png](README_files/README_100_0.png)
+![png](README_files/README_104_0.png)
     
 
 
@@ -1987,10 +2107,10 @@ kmeans.fit(df_tsne[['PC1', 'PC2']])
 print(kmeans.cluster_centers_)
 ```
 
-    [[ 46.657986   -9.370605 ]
-     [  5.588283   43.945107 ]
-     [-46.13855     3.4791222]
-     [ -4.443057  -40.495094 ]]
+    [[ 46.657978   -9.370605 ]
+     [  5.588283   43.945114 ]
+     [-46.13855     3.4791226]
+     [ -4.443057  -40.495087 ]]
     
 
 
@@ -2009,7 +2129,7 @@ plt.show()
 
 
     
-![png](README_files/README_103_0.png)
+![png](README_files/README_107_0.png)
     
 
 
@@ -2030,7 +2150,7 @@ plt.show()
 
 
     
-![png](README_files/README_105_0.png)
+![png](README_files/README_109_0.png)
     
 
 
@@ -2054,7 +2174,7 @@ visualizer.show()
 
 
     
-![png](README_files/README_107_1.png)
+![png](README_files/README_111_1.png)
     
 
 
@@ -2096,7 +2216,7 @@ plt.show()
 
 
     
-![png](README_files/README_112_0.png)
+![png](README_files/README_116_0.png)
     
 
 
@@ -2113,7 +2233,7 @@ plt.show()
 
 
     
-![png](README_files/README_113_0.png)
+![png](README_files/README_117_0.png)
     
 
 
@@ -2142,7 +2262,7 @@ plt.show()
 
 
     
-![png](README_files/README_116_0.png)
+![png](README_files/README_120_0.png)
     
 
 
@@ -2163,7 +2283,7 @@ plt.show()
 
 
     
-![png](README_files/README_118_0.png)
+![png](README_files/README_122_0.png)
     
 
 
@@ -2210,7 +2330,7 @@ sns.heatmap(distance_matrix)
 
 
     
-![png](README_files/README_124_1.png)
+![png](README_files/README_128_1.png)
     
 
 
@@ -2230,7 +2350,7 @@ plt.show()
 
 
     
-![png](README_files/README_125_0.png)
+![png](README_files/README_129_0.png)
     
 
 
@@ -2257,7 +2377,7 @@ plt.show()
 
 
     
-![png](README_files/README_128_0.png)
+![png](README_files/README_132_0.png)
     
 
 
@@ -2277,7 +2397,7 @@ plt.show()
 
 
     
-![png](README_files/README_130_0.png)
+![png](README_files/README_134_0.png)
     
 
 
@@ -2300,7 +2420,7 @@ plt.show()
 
 
     
-![png](README_files/README_133_0.png)
+![png](README_files/README_137_0.png)
     
 
 
@@ -2319,7 +2439,7 @@ plt.show()
 
 
     
-![png](README_files/README_135_0.png)
+![png](README_files/README_139_0.png)
     
 
 
@@ -2349,7 +2469,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-    0.9887218045112782
+    0.9823308270676692
 
 
 
@@ -2368,7 +2488,7 @@ sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d')
 
 
     
-![png](README_files/README_140_1.png)
+![png](README_files/README_144_1.png)
     
 
 
@@ -2392,7 +2512,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-    0.9654135338345865
+    0.9530075187969925
 
 
 
@@ -2410,7 +2530,7 @@ sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d')
 
 
     
-![png](README_files/README_143_1.png)
+![png](README_files/README_147_1.png)
     
 
 
@@ -2434,7 +2554,7 @@ accuracy_score(y_test, y_pred)
 
 
 
-    0.9913533834586467
+    0.9857142857142858
 
 
 
@@ -2452,7 +2572,7 @@ sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d')
 
 
     
-![png](README_files/README_146_1.png)
+![png](README_files/README_150_1.png)
     
 
 
@@ -2484,7 +2604,7 @@ plt.show()
 
 
     
-![png](README_files/README_148_0.png)
+![png](README_files/README_152_0.png)
     
 
 
@@ -2492,7 +2612,7 @@ According to our study, we can get some conclusions:
 
 - Dimensionality reduction with PCA has not been very efficient. The PCA algorithm is not able to separate the different classes. This is because the PCA algorithm is a linear algorithm and the classes are not linearly separable. The Kernel PCA algortihm and the t-SNE algorithm have been more efficient at separating the classes. They are non-linear algorithms.
 - Supervised Machine-Learning algortihms we learned in class have been very good at classifying the attacks types on the raw datas (without Dimensionality reduction).
-- When we tried to apply the supervised algorithms on the dimensionality reduced data, the results were very different with first PCA/LDA and PCA/QDA that were not as good as the simple LDA and QDA. The KPCA has slightly decreased the accuracy of the QDA model compared to the simple one and has decreased the accuracy of the LDA model. Finally, the t-SNE model has decreased the accuracy of both LDA and QDA models. This is because the t-SNE algorithm is not supposed to be used for classification but is just a visualization tool.
+- When we tried to apply the supervised algorithms on the dimensionality reduced data, the results were very different with first PCA/LDA and PCA/QDA that were not as good as the simple LDA and QDA. The KPCA has slightly decreased the accuracy of the QDA model compared to the simple one but has decreased the accuracy of the LDA model. Finally, the t-SNE model has decreased the accuracy of both LDA and QDA models. This is because the t-SNE algorithm is not supposed to be used for classification but is just a visualization tool.
 - The results of the different unsupervised algorithms have been very different. The k-means algorithm has not been able to separate the classes as the k-means' clusters are spherical and the data are not linearly separable. The GMM algorithm has been able to separate the classes but not as good as the hierarchical clustering algorithm. The DBSCAN algorithm has not been able to separate the classes as it has created more than 100 clusters. Finally, the hierarchical clustering algorithm has been able to separate the classes very well.
 - When we tried other supervised algorithms such as Decision Tree, K-Nearest Neighbors and Random Forest, we got medium results with KNN and some very good results with Random Forest and Decision Tree. This is because the Decision Tree and Random Forest are perfect for this kind of study as they are able to handle non-linear data and are able to classify the data with a hierarchical approach.
 
